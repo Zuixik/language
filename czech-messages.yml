@@ -1,0 +1,39 @@
+messages:
+  prefix: '&8» &6DKCoins &8| &f'
+  nopermissions: '&cK tomuto prikazu nemate opravneni!'
+  noconnection: '&cZadne pripojeni k databazi.'
+  coins:
+    singular: coin
+    plural: coins
+    symbol: $
+  player:
+    notfound: '&cHrac &e[player] &cnebyl nalezen.'
+  command:
+    coins: '&7Zustatek&8: &e[amount] &7coins'
+    coinsothers: '&7Zustatek hrace &e[player]&8: &e[amount] &7coins.'
+    top:
+      header: '&6Top 10 hracu'
+      list: ' &8[&7[rang]&8] &e[player]&8: &e[amount] &7coins'
+    pay:
+      notenough: '&cNemate dostatek coinu.'
+      sender: '&7Poslal jsi hraci &e[player] &e[amount] &7coins.'
+      receiver: '&7Bylo ti pripsano &e[amount] &7coins &7od hrace &e[player]&7.'
+    set:
+      sender: '&7Nastavil jsi hraci &e[player] &7coins na &e[amount]'
+      receiver: '&7Tvuj zustatek byl nastaven na &e[amount]'
+    add:
+      sender: '&7Pridal jsi hraci &e[player] &e[amount] &7coins.'
+      receiver: '&7Bylo ti pripsano &e[amount] &7coins.'
+    remove:
+      sender: '&7Odebral jsi hraci &e[player] &e[amount] &7coins.'
+      receiver: '&7Bylo ti odebrano &e[amount] &7coins.'
+    help:
+      header: '&8--------[&6DKCoins&8]--------'
+      coins:
+        see: '&e/coins <player>'
+        top: '&e/coins top'
+        pay: '&e/coins pay <player> <amount>'
+        set: '&e/coins set <player> <amount>'
+        add: '&e/coins add <player> <amount>'
+        remove: '&e/coins remove <player> <amount>'
+        reset: '&e/coins reset <player>'
